@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Çalışmak & Odaklanmak & Müzik</title>
+  </head>
+  <body>
+    <section class="container-fluid">
+      <div
+        class="row align-item-center justify-content-center text-center mt-5"
+      >
+        <div class="clock col-12 mt-5" id="clock1">
+          <p class="paragraph lead">
+            "Çalışmaya başladığınızdan beri telefonunuz
+            <span id="hour1" class="myNumber">1</span> kere dikkatinizi dağıttı”
+          </p>
+          <button
+            type="button"
+            onclick="increaseHour('1')"
+            class="myButton btn btn-primary btn-lg"
+          >
+            Telefonunuza her baktığınızda tıklayınız!
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="title mt5">
+      <h1 class="h1">BİLGİLENDİRME</h1>
+      <p>
+        Odaklanma sorunu yaşıyorsanız aşağıda sizler için çalışmanız sırasında
+        <br />
+        odaklanmanızı kolaylaştırmak amacıyla çeşitli sesler ve müzikler içeren
+        <br />
+        size ortam ayarlayan bazı web siteleri listelenmiştir.
+      </p>
+    </div>
+    <section class="iframe container-fluid">
+      <iframe
+        src="https://www.brain.fm/"
+        style="border: none"
+        title="brainfm"
+        frameborder="0"
+      ></iframe>
+
+      <iframe
+        src="https://asoftmurmur.com/"
+        style="border: none"
+        title="asofmurmur"
+      ></iframe>
+
+      <iframe
+        src="https://generative.fm/"
+        style="border: none"
+        title="generativefm"
+        frameborder="0"
+      ></iframe>
+    </section>
+    <footer>
+      <section class="container-fluid">
+        <div class="ftr">
+          <h1 class="f-h1">Çalışırken Müzik Dinlemenin Artıları ve Eksileri</h1>
+          <h3 class="f-h3">Artıları</h3>
+          <ul>
+            <li>
+              <span style="font-weight: bolder">Odaklanmayı Artırır:</span>
+              Müzik, dikkat dağınıklığını azaltarak odaklanmayı artırabilir.
+              Özellikle enstrümantal müzik, dışarıdaki gürültüleri engelleyerek
+              konsantrasyonu artırabilir.
+            </li>
+            <li>
+              <span style="font-weight: bolder">Stresi Azaltır:</span>
+              Doğru seçilen müzik, stres seviyelerini azaltabilir ve rahatlama
+              sağlayabilir. Yavaş ve melodik müzik, sinir sistemini yatıştırarak
+              sakinleştirici bir etki yapar.
+            </li>
+            <li>
+              <span style="font-weight: bolder">Motivasyonu Artırır:</span>
+              Enerjik ve ritmik müzik, motivasyonu artırarak iş yapma hızını ve
+              verimliliği artırabilir.
+            </li>
+            <li>
+              <span style="font-weight: bolder">Ruh Halini Düzenler:</span>
+              Müzik, ruh halini pozitif yönde etkileyerek iş yaparken daha
+              keyifli bir ortam yaratabilir. Özellikle sabah saatlerinde
+              dinlenen dinamik müzikler, günü daha enerjik geçirmenizi sağlar.
+            </li>
+            <li>
+              <span style="font-weight: bolder">Yaratıcılığı Teşvik Eder:</span>
+              Bazı müzik türleri, yaratıcı düşünmeyi teşvik edebilir. Ambient ve
+              klasik müzik gibi türler, beyin dalgalarını olumlu yönde
+              etkileyerek yaratıcı süreçleri destekler.
+            </li>
+          </ul>
+          <h3 class="f-h3">Eksileri</h3>
+          <ul>
+            <li>
+              <span style="font-weight: bolder">Dikkat Dağıtıcı Olabilir:</span>
+              Yanlış seçilen müzik veya şarkı sözleri, dikkat dağıtıcı olabilir
+              ve iş verimliliğini düşürebilir. Özellikle kelime içeren şarkılar,
+              zihnin odağını dağıtabilir.
+            </li>
+            <li>
+              <span style="font-weight: bolder"
+                >Beyin Yorgunluğunu Artırabilir:</span
+              >
+              Uzun süre yüksek sesle müzik dinlemek, beyni yorabilir ve çalışma
+              performansını olumsuz etkileyebilir.
+            </li>
+            <li>
+              <span style="font-weight: bolder">Rutine Bağlılık:</span> Sürekli
+              aynı tür müziği dinlemek, zamanla monotonluk yaratabilir ve iş
+              performansını olumsuz etkileyebilir.
+            </li>
+            <li>
+              <span style="font-weight: bolder"
+                >Çalışma Ortamına Uygun Olmayabilir:</span
+              >
+              Herkes müzik dinleyerek çalışmayı sevmez. Ortak çalışma
+              alanlarında yüksek sesle müzik dinlemek, diğer çalışanları
+              rahatsız edebilir.
+            </li>
+          </ul>
+        </div>
+        <h3>Çalışırken Uygun Müzik Türleri:</h3>
+        <ul>
+          <li>
+            <span style="font-weight: bolder">Enstrümantal Müzik:</span> Piyano,
+            keman, gitar gibi enstrümanların çaldığı müzikler, dikkat dağıtmadan
+            odaklanmayı artırır.
+          </li>
+          <li>
+            <span style="font-weight: bolder">Klasik Müzik:</span> Mozart,
+            Beethoven gibi klasik müzik bestecilerinin eserleri, beyin
+            dalgalarını olumlu yönde etkileyerek odaklanmayı artırabilir.
+          </li>
+          <li>
+            <span style="font-weight: bolder"
+              >Ambient ve Elektronik Müzik:</span
+            >
+            Arka planda çalan ve dikkat dağıtmayan ritimler, sakin bir çalışma
+            ortamı sağlar.
+          </li>
+          <li>
+            <span style="font-weight: bolder">Doğa Sesleri:</span> Yağmur, dalga
+            sesi, kuş cıvıltısı gibi doğa sesleri, rahatlatıcı bir etki
+            yaratarak odaklanmayı artırabilir.
+          </li>
+          <li>
+            <span style="font-weight: bolder">Lo-fi Hip Hop:</span> Düşük
+            tempolu ve genellikle sözsüz olan bu müzik türü, özellikle yaratıcı
+            işler yaparken faydalı olabilir.
+          </li>
+        </ul>
+        <h3>Sonuç:</h3>
+        <p>
+          Çalışırken müzik dinlemek, doğru seçildiğinde odaklanmayı artırabilir,
+          stresi azaltabilir ve motivasyonu yükseltebilir. Ancak, müzik türünün
+          ve ses seviyesinin dikkatli seçilmesi önemlidir. Her bireyin müzik
+          tercihi farklı olabilir, bu nedenle en iyi sonucu elde etmek için
+          çeşitli türleri denemek ve kişisel tercihlere göre ayarlamalar yapmak
+          faydalı olacaktır.
+        </p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url(greenBG.jpg);
+}
+
+.paragraph{
+    font-size: 70px;
+}
+
+.myButton{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.myNumber{
+    font-weight: bolder;
+}
+
+.title {
+    text-align: center;
+}
+
+.iframe {
+    text-align: center;
+}
+
+.f-h1 {
+    text-align: center;
+}
+
+.f-h3 {
+    text-align: center;
+    justify-content: center;
+}
